@@ -17,6 +17,7 @@
 
 # "Forbidden" regular expressions
 FORBIDDEN = [
+  /DO_NOT_COMMIT/, # Tag some file manually
   /TMP_DEBUG/, # My TextExpander macros for embedding debug code always include this for easy scanning.
   />>>>>>/,    # Git conflict markers
   /<<<<<</,    # ''
